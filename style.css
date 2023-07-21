@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0, 0, 11);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18,62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(160, 160, 250);
+    font-size: 1.04rem;
+}
+.left{
+    font-size: 2rem;
+    margin:200px;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+.firstsec > div{
+    width: 30%;
+}
+.leftsec{
+    font-size: 3rem;
+}
+.leftsec .btn{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #3a35a3;
+    color: white;
+    cursor: pointer;
+}
+.leftsec .btn:hover{
+    background-color: rgb(2, 27, 44);
+    color: white;
+
+}
+.rightsec{
+    width: 80%;
+    margin: 50px 0;
+}
+.p{
+    color: rgb(133, 133, 249);
+}
+.text-grey{
+    color: grey;
+}
+
+#element{
+    color: rgb(133, 133, 249);
+}
+.secondsec{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsec h1{
+    font-size: 2rem;
+}
+.secondsec .box{
+    background: white;
+    width: 82vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+.secondsec .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-tittle{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: #dedeea;
+    width: 150px;
+    font-size: 9px;
+}
+footer{
+    background-color:rgb(9, 9, 97);
+}
+.footer{
+    display:flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+.footer ul {
+    list-style: none;
+    
+}
+.footer > div{
+    width: 223px;
+}
+.footer-right{
+    text-align: center;
+ /* background-color:rgb(9, 9, 97); */
+ padding: 20px;
+ font-size: 2rem;
+}
